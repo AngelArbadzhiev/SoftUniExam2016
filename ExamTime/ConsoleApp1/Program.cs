@@ -1,6 +1,11 @@
-﻿int examHour = int.Parse(Console.ReadLine());
+
+//The hour that the exam starts.
+int examHour = int.Parse(Console.ReadLine());
+//The minute that the exam starts.
 int examMinute = int.Parse(Console.ReadLine());
+//The hour that the student arrived.
 int arriveHour = int.Parse(Console.ReadLine());
+//The minute that the student arrived.
 int arriveMinute = int.Parse(Console.ReadLine());
 int examTime = (examHour * 60) + examMinute;
 int arriveTime = (arriveHour * 60) + arriveMinute;
