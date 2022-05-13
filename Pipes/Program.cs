@@ -1,8 +1,12 @@
 ﻿
+//The volume of the pool.
 int volume = int.Parse(Console.ReadLine());
+//Гow much water the pipes put in.
 int pipe1 = int.Parse(Console.ReadLine());
 int pipe2 = int.Parse(Console.ReadLine());
+//Hours active.
 double hours = double.Parse(Console.ReadLine());
+//Water for all the hours active.
 double water = (pipe1 + pipe2) * hours;
  
 if (water <= volume)
